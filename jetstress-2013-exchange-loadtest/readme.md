@@ -1,10 +1,10 @@
-# JETSTRESS 2013 WORKLoAD FOR EXCHANGE 2016 CU1 ON AZURESTACK
+# JETSTRESS 2013 WORKLOAD FOR EXCHANGE 2016 CU1 ON AZURESTACK
 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzureStack-QuickStart-Templates%2Fdevelop%2Fjetstress-2013-exchange-loadtest%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzureStack-QuickStart-Templates%2Fmaster%2Fjetstress-2013-exchange-loadtest%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzureStack-QuickStart-Templates%2Fdevelop%2Fjetstress-2013-exchange-loadtest%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzureStack-QuickStart-Templates%2Fmaster%2Fjetstress-2013-exchange-loadtest%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -19,7 +19,7 @@ NOTE: There is a 90 minutes Azure time-out which you can hit if large number of 
 | Endpoint        | Version           | Validated  |
 | ------------- |:-------------:| -----:|
 | Microsoft Azure      | - | yes |
-| Microsoft Azure Stack      | TP2      |  yes |
+| Microsoft Azure Stack      | - |  yes |
 
 
 ## Deployed resources

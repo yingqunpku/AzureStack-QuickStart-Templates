@@ -18,10 +18,14 @@
         },
         "windowsImageSKU": {
             "type": "string",
+            "allowedValues": [
+                "2012-R2-Datacenter",
+                "2016-Datacenter"
+            ],
             "metadata": {
                 "description": "The SKU Name of Windows Image"
             },
-            "defaultValue": "2012-R2-Datacenter"
+            "defaultValue": "2016-Datacenter"
         },
         "windowsImageVersion": {
             "type": "string",
@@ -53,7 +57,8 @@
             "type": "string",
             "metadata": {
                 "description": "The type of the Storage Account created"
-            }
+            },
+            "defaultValue": "Standard_LRS"
         },
         "adminUsername": {
             "type": "string",
@@ -71,7 +76,8 @@
             "type": "string",
             "metadata": {
                 "description": "The size of the AD VMs Created"
-            }
+            },
+			"defaultValue": "Standard_A2"
         },
         "subnetResourceID": {
             "type": "string",
